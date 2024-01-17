@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+.my-nav {
+    background-color: darkviolet;
+    color: white;
+    padding: 1rem;
+}
+
+.my-nav .nav-item form button{
+    font-size: larger;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    color: bisque;
+}
+
+.my-nav .nav-item form .logout-btn:hover{
+    color: white;
+    font-size: large;
+    transition: 1s;
+}
+
+.my-nav .nav-item form .home-btn:hover{
+    font-size: large;   
+    color: white;
+    transition: 1s;
+}
+
+.my-nav .navi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-nav .navi a{
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    flex: 1;
+    align-self: center;
+}
+
+footer {
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
